@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>Education</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="act.css">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+    <!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-top w3-card-4 bg-Grey " style="z-index:3;width:225px;" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <a href="index.html"><img src="DYK.jpg" alt="logo" class="w3-image"></a>
+  </div>
+  <div class="w3-padding-8 w3-large w3-text-dark-grey" style="font-weight:bold">
+    <a href="index.html" class="w3-bar-item w3-button bg-SlateGray " >Home</a>
+    <a href="note.html" class="w3-bar-item w3-button">Notes</a>
+    <a href="about_us.html" class="w3-bar-item w3-button">About us</a>
+    <a href="contact_us.html" class="w3-bar-item w3-button">Contact us</a>
+  </div>
+</nav>
+
+      <header class="w3-bar w3-top w3-hide-large w3-xlarge bg-halfGrey">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-card-4" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:225px">
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+
+    <!-- Top header -->
+     <header class="w3-container w3-xlarge bg-halfGrey">
+      <h1 class="w3-left w3-text-black w3-margin-left"><b>Pongsakorn Pattano</b></h1>
+    </header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Education</span></h5>
+    <p>ประถมศึกษา โรงเรียนบ้านคลองหวะ(ทวีรัตน์ราษฎร์บํารุง)</p>
+    <p>มัธยมศึกษาตอนต้น โรงเรียนหาดใหญ่วิทยาลัย ๒</p>
+    <p>มัธยมศึกษาตอนปลาย โรงเรียนหาดใหญ่วิทยาลัย ๒</p>
+    <p>ระดับปริญญาตรี มหาวิทยาลัยสงขลานครินทร์ คณะวิทยาการจัดการ สาขาการเงิน (กำลังศึกษา)</p>
+</div>
+</body>
+</html>
